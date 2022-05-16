@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/../src/$1",
+    "^@Helper/(.*)$": "<rootDir>/../src/common/helper/$1",
+    "^@utils/(.*)$": "<rootDir>/../src/common/utils/$1",
+    "^@common/(.*)$": "<rootDir>/../src/common/$1",
+    "^@modules/(.*)$": "<rootDir>/../src/modules/$1",
+    "^@jobs/(.*)$": "<rootDir>/../src/jobs/$1",
+    "^@swagger/(.*)$": "<rootDir>/../src/swagger/$1",
+    "^@database/(.*)$": "<rootDir>/../src/database/$1",
+    "^@config/(.*)$": "<rootDir>/../src/config/$1",
+    "^@app/(.*)$": "<rootDir>/../src/app/$1"
+  }
+}
